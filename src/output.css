@@ -182,11 +182,29 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-\[23\] {
+    margin-top: 23;
+  }
+  .mt-\[23px\] {
+    margin-top: 23px;
+  }
+  .mt-\[38px\] {
+    margin-top: 38px;
+  }
   .mt-\[100px\] {
     margin-top: 100px;
   }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
+  }
+  .mr-\[23px\] {
+    margin-right: 23px;
+  }
+  .mb-\[38px\] {
+    margin-bottom: 38px;
+  }
+  .mb-\[115px\] {
+    margin-bottom: 115px;
   }
   .flex {
     display: flex;
@@ -196,6 +214,9 @@
   }
   .table {
     display: table;
+  }
+  .h-\[21px\] {
+    height: 21px;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -208,6 +229,12 @@
   }
   .w-\[60\%\] {
     width: 60%;
+  }
+  .w-\[97\] {
+    width: 97;
+  }
+  .w-\[97px\] {
+    width: 97px;
   }
   .w-full {
     width: 100%;
@@ -249,6 +276,24 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\.\/src\/asset\/SectionBg\.png\'\)\] {
+    background-image: url('./src/asset/SectionBg.png');
+  }
+  .bg-\[url\(\'\/src\/asset\/SectionBg\.png\'\)\] {
+    background-image: url('/src/asset/SectionBg.png');
+  }
+  .bg-\[url\(\'src\/asset\/SectionBg\.png\'\)\] {
+    background-image: url('src/asset/SectionBg.png');
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
@@ -257,9 +302,6 @@
   }
   .px-\[35px\] {
     padding-inline: 35px;
-  }
-  .px-\[40px\] {
-    padding-inline: 40px;
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -270,11 +312,20 @@
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-50 {
+    padding-block: calc(var(--spacing) * 50);
+  }
+  .py-100 {
+    padding-block: calc(var(--spacing) * 100);
   }
   .py-\[55px\] {
     padding-block: 55px;
@@ -284,6 +335,18 @@
   }
   .pt-\[90px\] {
     padding-top: 90px;
+  }
+  .pt-\[109px\] {
+    padding-top: 109px;
+  }
+  .pt-\[127px\] {
+    padding-top: 127px;
+  }
+  .pt-\[1217px\] {
+    padding-top: 1217px;
+  }
+  .pt-\[px\] {
+    padding-top: px;
   }
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
@@ -297,17 +360,32 @@
   .pb-\[9px\] {
     padding-bottom: 9px;
   }
+  .pb-\[15px\] {
+    padding-bottom: 15px;
+  }
+  .pb-\[22px\] {
+    padding-bottom: 22px;
+  }
+  .pb-\[30px\] {
+    padding-bottom: 30px;
+  }
   .pb-\[37px\] {
     padding-bottom: 37px;
   }
-  .pb-\[50px\] {
-    padding-bottom: 50px;
+  .pb-\[113\] {
+    padding-bottom: 113;
+  }
+  .pb-\[113px\] {
+    padding-bottom: 113px;
+  }
+  .pb-\[127\] {
+    padding-bottom: 127;
+  }
+  .pb-\[127px\] {
+    padding-bottom: 127px;
   }
   .pb-\[140px\] {
     padding-bottom: 140px;
-  }
-  .pb-\[px\] {
-    padding-bottom: px;
   }
   .text-center {
     text-align: center;
@@ -322,10 +400,6 @@
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
-  }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
   }
   .text-\[16px\] {
     font-size: 16px;
@@ -356,6 +430,9 @@
   }
   .text-\[\#121212\] {
     color: #121212;
+  }
+  .text-\[\#333333\] {
+    color: #333333;
   }
   .text-black {
     color: var(--color-black);
