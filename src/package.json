@@ -1,0 +1,22 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moazzem-Rafi/Portostar_Figma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Moazzem-Rafi/Portostar_Figma/issues"
+  },
+  "homepage": "https://github.com/Moazzem-Rafi/Portostar_Figma#readme"
+}
